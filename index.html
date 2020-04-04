@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PiggyVest | Dashboard </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <main>
+        <!--PiggyVest logo-->
+            <div class="logo">
+                <img src="piggyvest.png" style="width:200px; height: 100%" id="logo" alt="PiggyVest Logo">
+            </div>
+            
+        <!--The Sign up box containing the form for registration-->
+            <div class="signUpBox">
+                <div class="info_text">
+                    <p class="largeDisplayText">Create a Secure Account</p>
+                    <p class="smallDisplayText">Welcome to the future of Savings &amp; Investment</p>
+                </div>
+                <div>
+                    <form method="post" action="">
+                        <div class="inputField">
+                            <label for="full_name" class="formLabel">Full Name</label>
+                            <input type="text" placeholder="Full Name" id="full_name" class="formInput">
+                        </div>
+                        <div class="inputField">
+                            <label for="email_address" class="formLabel">Email Address</label>
+                            <input type="email" placeholder="Email Address" id="email_address" class="formInput">
+                        </div>
+                        <div class="inputField">
+                            <label for="phone_number" class="formLabel">Phone Number</label>
+                            <input type="text" placeholder="Phone Number" id="phone_number" class="formInput">
+                        </div>
+                        <div class="inputField">
+                            <label for="password" class="formLabel">Password</label>
+                            <input type="Password" placeholder="Password" id="password" class="formInput">
+                        </div>
+                        <div class="inputField">
+                            <label for="referrer_code" class="formLabel">Referrer Phone or Promo Code (Optional)</label>
+                            <input type="Password" placeholder="Referrer Phone or Code" id="referrer_code" class="formInput">
+                        </div>
+                        <div class="inputField">
+                            <label for="HDYH" class="formLabel">How Did You Hear About Us? (Optional)</label>
+                            <select class="formInput select_input">
+                                <option selected>Click To Select</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Twitter">Twitter</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Friend/Family/Coworker referrer">Friend/Family/Coworker referral</option>
+                                <option value="Google search">Google search</option>
+                                <option value="Google playstore">Google playstore</option>
+                                <option value="Online Blog">Online Blog</option>
+                            </select>
+                        </div>
+                        
+                    <!--Sign up submit button-->
+                        <div class="signUpButton">
+                            <button type="link">CREATE ACCOUNT</button>
+                        </div>                        
+                    </form>
+                </div>
+            </div>
+            <div class="loginLink">
+                <a href="#">Already have an account? Log In</a>
+            </div>
+        </main>
+    </body>
+</html>
